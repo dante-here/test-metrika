@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Test Yandex Metrika</title>
+  <!-- Вставь сюда свой ID счётчика -->
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(104671801, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
+
+    });
+  </script>
+</head>
+<body>
+  <h1>Тестовая страница для Яндекс.Метрики</h1>
+  <a id="cta" href="#" onclick="ym(YANDEX_ID,'reachGoal','ORDER');return false;">Нажми для цели</a>
+</body>
+</html>
